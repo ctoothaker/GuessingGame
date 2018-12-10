@@ -1,6 +1,6 @@
 function  CountDirFiles {
 	numFiles=0
-	let numFiles=$(ls -l | wc -l)
+	let numFiles=$(ls -l | wc -l | egrep -o '[0-9]+')
 }
 
 numFiles=0
