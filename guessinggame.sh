@@ -23,7 +23,7 @@ do
 
 	if [[ $guess -eq $numFiles ]]
 	then
-		echo "That is correct!"
+		echo "Congratulations, that is correct!"
 	elif [[ $guess -gt $numFiles ]]
 	then
 		echo "You have guessed too high, please try again."
